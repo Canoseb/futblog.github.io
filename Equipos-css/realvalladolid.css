@@ -1,5 +1,5 @@
 body {
-    background-color: #003366;
+    background-color: #FFFFFF; /* Blanco como base */
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin: 0;
     padding: 20px;
@@ -7,18 +7,16 @@ body {
 
 .contenedor {
     display: flex;
-    flex-wrap: wrap; 
     justify-content: space-between;
-    align-items: flex-start; 
-    color: #ffffff;
+    color: #4B0082; /* Morado */
 }
 
 .plantilla {
-    width: 48%; 
+    width: 45%;
 }
 
 .partidos {
-    width: 48%; 
+    width: 50%;
 }
 
 #nombreEquipo {
@@ -26,7 +24,7 @@ body {
     margin-bottom: 10px;
     font-size: 24px;
     font-weight: bold;
-    color: #ffffff;
+    color: #4B0082; /* Morado */
 }
 
 #escudo {
@@ -43,14 +41,14 @@ body {
 }
 
 #plantilla th, #plantilla td {
-    border: 1px solid #ffffff;
+    border: 1px solid #116811; /* Dorado */
     padding: 4px;
     text-align: left;
 }
 
 #plantilla th {
-    background-color: #003366;
-    color: #ffffff;
+    background-color: #4B0082; /* Fondo morado */
+    color: #FFFFFF; /* Texto blanco */
 }
 
 #plantilla td:first-child {
@@ -58,18 +56,17 @@ body {
 }
 
 #plantilla tr:nth-child(odd) {
-    background-color: #003366;
+    background-color: #FFD700; /* Morado */
+    color: #4B0082; /* Blanco */
 }
 
 #plantilla tr:nth-child(even) {
-    background-color: #00509E;
-    color: #ffffff;
+    background-color: #4B0082; /* Dorado */
+    color: #FFD700; /* Blanco */
 }
 
 .proximopartido, .ultimosresultados {
     margin-top: 20px;
-    width: 100%; 
-    color: #ffffff;
 }
 
 .proximopartido table, .ultimosresultados table {
@@ -80,28 +77,29 @@ body {
 
 .proximopartido th, .proximopartido td, 
 .ultimosresultados th, .ultimosresultados td {
-    border: 1px solid #ffffff;
+    border: 1px solid #116811; /* Bordes morados */
     padding: 8px;
     text-align: center;
 }
 
 .proximopartido th, .ultimosresultados th {
-    background-color: #00509E;
-    color: #ffffff;
+    background-color: #c72b26; /* Fondo morado */
+    color: #FFFFFF; /* Texto blanco */
 }
 
 .proximopartido tr:nth-child(odd), .ultimosresultados tr:nth-child(odd) {
-    background-color: #003366;
-    color: #ffffff;
+    background-color: #FFFFFF; /* Blanco */
+    color: #4B0082; /* Texto morado */
 }
 
 .proximopartido tr:nth-child(even), .ultimosresultados tr:nth-child(even) {
-    background-color: #00509E;
-    color: #ffffff;
+    background-color: rgb(255, 255, 255); /* Dorado */
+    color: #4B0082; /* Blanco */
 }
 
 .proximopartido table td img, .ultimosresultados table td img {
     display: inline-block;
+    max-width: 40px; /* Tamaño ajustado de los escudos */
     margin: 0 5px;
     vertical-align: middle;
 }

@@ -1,5 +1,5 @@
 body {
-    background-color: #003366;
+    background-color: #FFFFFF; /* Blanco como base */
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin: 0;
     padding: 20px;
@@ -7,18 +7,16 @@ body {
 
 .contenedor {
     display: flex;
-    flex-wrap: wrap; 
     justify-content: space-between;
-    align-items: flex-start; 
-    color: #ffffff;
+    color: #A71D31; /* Rojo del escudo */
 }
 
 .plantilla {
-    width: 48%; 
+    width: 45%;
 }
 
 .partidos {
-    width: 48%; 
+    width: 50%;
 }
 
 #nombreEquipo {
@@ -26,7 +24,7 @@ body {
     margin-bottom: 10px;
     font-size: 24px;
     font-weight: bold;
-    color: #ffffff;
+    color: #7FB3D5; /* Celeste del escudo */
 }
 
 #escudo {
@@ -43,14 +41,14 @@ body {
 }
 
 #plantilla th, #plantilla td {
-    border: 1px solid #ffffff;
+    border: 1px solid #A71D31; /* Bordes rojos */
     padding: 4px;
     text-align: left;
 }
 
 #plantilla th {
-    background-color: #003366;
-    color: #ffffff;
+    background-color: #A71D31; /* Fondo rojo */
+    color: #FFD700; /* Dorado para el texto */
 }
 
 #plantilla td:first-child {
@@ -58,18 +56,17 @@ body {
 }
 
 #plantilla tr:nth-child(odd) {
-    background-color: #003366;
+    background-color: #7FB3D5; /* Rojo */
+    color: #ffffff; /* Texto dorado */
 }
 
 #plantilla tr:nth-child(even) {
-    background-color: #00509E;
-    color: #ffffff;
+    background-color: #A71D31; /* Celeste */
+    color: #FFD700; /* Texto blanco */
 }
 
 .proximopartido, .ultimosresultados {
     margin-top: 20px;
-    width: 100%; 
-    color: #ffffff;
 }
 
 .proximopartido table, .ultimosresultados table {
@@ -80,24 +77,24 @@ body {
 
 .proximopartido th, .proximopartido td, 
 .ultimosresultados th, .ultimosresultados td {
-    border: 1px solid #ffffff;
+    border: 1px solid #A71D31; /* Bordes rojos */
     padding: 8px;
     text-align: center;
 }
 
 .proximopartido th, .ultimosresultados th {
-    background-color: #00509E;
-    color: #ffffff;
+    background-color: #7FB3D5; /* Celeste */
+    color: #FFFFFF; /* Texto blanco */
 }
 
 .proximopartido tr:nth-child(odd), .ultimosresultados tr:nth-child(odd) {
-    background-color: #003366;
-    color: #ffffff;
+    background-color: #FFFFFF; /* Blanco */
+    color: #A71D31; /* Rojo para texto */
 }
 
 .proximopartido tr:nth-child(even), .ultimosresultados tr:nth-child(even) {
-    background-color: #00509E;
-    color: #ffffff;
+    background-color: #7FB3D5; /* Celeste */
+    color: #FFD700; /* Dorado */
 }
 
 .proximopartido table td img, .ultimosresultados table td img {

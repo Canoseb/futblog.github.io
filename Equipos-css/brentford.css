@@ -1,24 +1,22 @@
 body {
-    background-color: #003366;
+    background-color: #E30613;
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin: 0;
     padding: 20px;
 }
 
 .contenedor {
-    display: flex;
-    flex-wrap: wrap; 
+    display: flex; 
     justify-content: space-between;
-    align-items: flex-start; 
-    color: #ffffff;
+    color: #FFD700;
 }
 
 .plantilla {
-    width: 48%; 
+    width: 45%; 
 }
 
 .partidos {
-    width: 48%; 
+    width: 50%; 
 }
 
 #nombreEquipo {
@@ -26,7 +24,6 @@ body {
     margin-bottom: 10px;
     font-size: 24px;
     font-weight: bold;
-    color: #ffffff;
 }
 
 #escudo {
@@ -43,14 +40,14 @@ body {
 }
 
 #plantilla th, #plantilla td {
-    border: 1px solid #ffffff;
+    border: 1px solid #000000;
     padding: 4px;
     text-align: left;
 }
 
 #plantilla th {
-    background-color: #003366;
-    color: #ffffff;
+    background-color: #E30613;
+    color: #FFFFFF;
 }
 
 #plantilla td:first-child {
@@ -58,18 +55,16 @@ body {
 }
 
 #plantilla tr:nth-child(odd) {
-    background-color: #003366;
+    background-color: #E30613;
 }
 
 #plantilla tr:nth-child(even) {
-    background-color: #00509E;
-    color: #ffffff;
+    background-color: #FFFFFF;
+    color: #000000;
 }
 
 .proximopartido, .ultimosresultados {
     margin-top: 20px;
-    width: 100%; 
-    color: #ffffff;
 }
 
 .proximopartido table, .ultimosresultados table {
@@ -80,24 +75,23 @@ body {
 
 .proximopartido th, .proximopartido td, 
 .ultimosresultados th, .ultimosresultados td {
-    border: 1px solid #ffffff;
+    border: 1px solid #000000;
     padding: 8px;
     text-align: center;
 }
 
 .proximopartido th, .ultimosresultados th {
-    background-color: #00509E;
-    color: #ffffff;
+    background-color: #FFD700;
+    color: #E30613;
 }
 
 .proximopartido tr:nth-child(odd), .ultimosresultados tr:nth-child(odd) {
-    background-color: #003366;
-    color: #ffffff;
+    background-color: #E30613;
 }
 
 .proximopartido tr:nth-child(even), .ultimosresultados tr:nth-child(even) {
-    background-color: #00509E;
-    color: #ffffff;
+    background-color: #FFFFFF;
+    color: #000000;
 }
 
 .proximopartido table td img, .ultimosresultados table td img {
@@ -119,6 +113,6 @@ body {
 }
 
 .volver img {
-    max-width: 30px;
+    max-width: 30px; /* Tamaño de la flecha */
     vertical-align: middle;
 }

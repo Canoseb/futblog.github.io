@@ -1,5 +1,5 @@
 body {
-    background-color: #003366;
+    background-color: #A50044;
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin: 0;
     padding: 20px;
@@ -7,18 +7,16 @@ body {
 
 .contenedor {
     display: flex;
-    flex-wrap: wrap; 
     justify-content: space-between;
-    align-items: flex-start; 
-    color: #ffffff;
+    color: #dfcf3e;
 }
 
 .plantilla {
-    width: 48%; 
+    width: 45%;
 }
 
 .partidos {
-    width: 48%; 
+    width: 50%; 
 }
 
 #nombreEquipo {
@@ -26,7 +24,6 @@ body {
     margin-bottom: 10px;
     font-size: 24px;
     font-weight: bold;
-    color: #ffffff;
 }
 
 #escudo {
@@ -49,8 +46,8 @@ body {
 }
 
 #plantilla th {
-    background-color: #003366;
-    color: #ffffff;
+    background-color: #A50044;
+    color: #dfcf3e;
 }
 
 #plantilla td:first-child {
@@ -58,18 +55,16 @@ body {
 }
 
 #plantilla tr:nth-child(odd) {
-    background-color: #003366;
+    background-color: #A50044;
 }
 
 #plantilla tr:nth-child(even) {
-    background-color: #00509E;
-    color: #ffffff;
+    background-color: #004d99;
+    color: #dfcf3e;
 }
 
 .proximopartido, .ultimosresultados {
     margin-top: 20px;
-    width: 100%; 
-    color: #ffffff;
 }
 
 .proximopartido table, .ultimosresultados table {
@@ -86,18 +81,17 @@ body {
 }
 
 .proximopartido th, .ultimosresultados th {
-    background-color: #00509E;
+    background-color: #004C99;
     color: #ffffff;
 }
 
 .proximopartido tr:nth-child(odd), .ultimosresultados tr:nth-child(odd) {
-    background-color: #003366;
-    color: #ffffff;
+    background-color: #721d2bc0;
 }
 
 .proximopartido tr:nth-child(even), .ultimosresultados tr:nth-child(even) {
-    background-color: #00509E;
-    color: #ffffff;
+    background-color: #721d2bc0;
+    color: #dfcf3e;
 }
 
 .proximopartido table td img, .ultimosresultados table td img {
