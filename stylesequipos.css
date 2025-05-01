@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #c73e3e;
+    color: #000000;
+    padding: 20px 0;
+    text-align: center;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
+    background-color: #221f1f;
+    color: #ffffff;
+    margin-top: 40px;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+ul {
+    position: fixed;
+    top: 0;
+    list-style: none;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-color: #922e2e;
+    z-index: 1;
+}
+
+ul li {
+    margin: 0 20px;
+}
+
+ul li a {
+    color: #ffffff;
+    font-size: 18px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+ul li a:hover {
+    color: #000000;
+}
+
+.logos {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 5% auto;
+}
+
+.logos .dropdown {
+    position: relative;
+}
+
+.logos img.logo-button {
+    max-width: 270px;
+    height: auto;
+    cursor: pointer;
+    transition: transform 0.2s ease; 
+}
+
+.logos img.logo-button:hover {
+    transform: scale(1.05); 
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: left;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); 
+    z-index: 2;
+}
+
+.menu-item {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; 
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 3px;
+    transition: background-color 0.3s ease;
+}
+
+.menu-item:hover {
+    background-color: #f0f0f0; 
+}
+
+.menu-item span {
+    font-size: 16px;
+    color: #000000;
+    margin-right: auto; 
+    transition: text-shadow 0.3s ease, color 0.3s ease;
+}
+
+.menu-item span:hover {
+    text-shadow: 2px 2px 4px #4b0303; 
+    color: #7c1e1e; 
+}
+
+
+.menu-item img {
+    max-width: 25px; 
+    height: auto;
+    margin-left: 10px; 
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    animation: fadeIn 0.3s ease;
+}

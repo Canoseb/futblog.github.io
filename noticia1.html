@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <script>
+        function volver() {
+            window.location.href = "../noticias.html"; 
+        }
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noticia: Barcelona vs Borussia Dortmund</title>
+    <style>
+        body {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            background-color: #882020;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        .header {
+            background: #2c2727;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+            position: relative;
+        }
+        .volver {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+        }
+        .volver button {
+            background: #555;
+            color: #fff;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .volver button:hover {
+            background: #777;
+        }
+        .news {
+            background: #fff;
+            padding: 20px;
+            margin-top: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .news img {
+            max-width: 100%;
+            height: auto;
+        }
+        .news h2 {
+            color: #333;
+        }
+        .news p {
+            color: #666;
+        }
+        .news a {
+            color: red;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="volver">
+                <button onclick="volver()">
+                    <img src="../images/volver.png" alt="Volver" style="max-width: 20px; vertical-align: middle;">
+                </button>
+            </div>
+            <h1>Noticia Deportiva</h1>
+        </div>
+        <div class="news">
+            <img src="../images/equiposlaliga/barcelona.png" alt="Barcelona" style="max-width: 40px; vertical-align: middle;">
+            <h2>Barcelona se clasifica a semifinales</h2>
+            <p>El Barcelona logró clasificarse a las semifinales tras un emocionante partido contra el Borussia Dortmund. A pesar de las dificultades, el equipo azulgrana mostró determinación en el campo. Gracias al resultado, esta clasificación se logra tras 6 años sin haber ido a una semifinal de Champions desde el 2019.</p>
+            <p>El encuentro se llevó a cabo el 15 de abril de 2025, y los aficionados disfrutaron de un espectáculo lleno de acción y pasión futbolística.</p>
+            <img src="../images/pasabarsa.webp" alt="Pasión Barça">
+        </div>
+    </div>
+</body>
+</html>
